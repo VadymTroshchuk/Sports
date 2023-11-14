@@ -16,4 +16,12 @@
         android:clipToPadding="false"
         android:padding="8dp"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+
+
+    <androidx.fragment.app.FragmentContainerView
+        android:layout_height="match_parent"
+        android:id="@+id/detail_container"
+        android:name="com.example.android.sports.NewsDetailsFragment"
+        android:layout_width="match_parent"/>
+
 </androidx.slidingpanelayout.widget.SlidingPaneLayout>
